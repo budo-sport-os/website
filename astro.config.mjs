@@ -6,7 +6,7 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://budo-sport-os.github.io',
-	base: '/website',
+	site: 'https://www.budo-dojo-os.de',
+	base: '/',
 	integrations: [mdx(), sitemap()],
 });
